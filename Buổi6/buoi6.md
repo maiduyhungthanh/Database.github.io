@@ -203,7 +203,7 @@ VALUES (3,3)
 ```sql
 INSERT INTO detail_borrow (`id_borrow`,`id_book`,`amount_borrow`)
 VALUES (1,2,1);
-INSERT INTO detail_borrow (`id_borrow`,`id_book`,`amount_borrow`)
+INSERT INTO detail_borrow (`id_borrow`,`id_book`,`amount_borrow`) 
 VALUES (2,4,1);
 INSERT INTO detail_borrow (`id_borrow`,`id_book`,`amount_borrow`)
 VALUES (3,6,1);
