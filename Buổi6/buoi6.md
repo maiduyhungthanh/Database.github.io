@@ -217,7 +217,7 @@ ON c.id = b.id_customer
 And b.id = p.id_borrow
 WHERE p.date_pay  IS NULL
 ```
-![DS mượn](DSmuon.png)
+![DS mượn](DSmuon.PNG)
 - Liệt kê các quyển sách thuộc thể loại bất kỳ (vd thể loại có id = 1)
 ```sql
 select *
@@ -257,5 +257,5 @@ and borrow.id = pay.id_borrow
 WHERE  datediff(CURRENT_DATE,borrow.date_return)>0
 and pay.date_pay is null
 ```
-![DS qua han](quahan.png)
+![DS qua han](quahan.PNG)
 
